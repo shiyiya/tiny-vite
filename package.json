@@ -1,0 +1,33 @@
+{
+  "name": "tiny-vite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node src/dev.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shiyiya/tiny-vite.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shiyiya/tiny-vite/issues"
+  },
+  "homepage": "https://github.com/shiyiya/tiny-vite#readme",
+  "devDependencies": {
+    "@types/chokidar": "^2.1.3",
+    "@types/node": "^15.9.0",
+    "@types/ws": "^7.4.4"
+  },
+  "dependencies": {
+    "chokidar": "^3.5.1",
+    "esbuild": "^0.12.5",
+    "esbuild-windows-64": "^0.12.5",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2",
+    "ws": "^7.4.6"
+  }
+}
